@@ -6,6 +6,12 @@ while True:
     elif a == 2:
         import changeSubInfo
         changeSubInfo
+    elif a == 3:
+        import subjectCal
+        subjectCal
+    elif a == 4:
+        import overallCal
+        overallCal
     elif a == 5:
         print("Thank you")
         break

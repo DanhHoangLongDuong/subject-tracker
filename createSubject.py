@@ -1,8 +1,9 @@
 from openpyxl import load_workbook
 
-wb = load_workbook("C:/Users/Long/Desktop/subject tracking/Subject/subject.xlsx")
+wb = load_workbook("C:/Users/Long/Desktop/subject-tracker/Subject/subject.xlsx")
 ws = wb.active
 
+Row = ws.max_row
 
 while True:
     Row += 1
@@ -33,4 +34,4 @@ while True:
     
 
 
-wb.save("C:/Users/Long/Desktop/subject tracking/Subject/subject.xlsx")
+wb.save("C:/Users/Long/Desktop/subject-tracker/Subject/subject.xlsx")

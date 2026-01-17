@@ -4,7 +4,7 @@ wb = load_workbook("C:/Users/Long/Desktop/subject-tracker/Subject/subject.xlsx")
 ws = wb.active
 
 Test = False
-subjectName = int(input("Search subject by:\n1. Name\n2.Subject no.\nOption:"))
+subjectName = int(input("Search subject by:\n1.Name\n2.Subject no.\nOption: "))
 if subjectName == 1:
     subject = input("please type subject name: ")
     for i in range(2, ws.max_row + 1):
